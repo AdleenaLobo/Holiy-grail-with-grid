@@ -1,0 +1,35 @@
+body, html
+{
+    height:100%;
+}
+
+.outer-layer
+{
+    display:grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    background-color: burlywood;
+}
+
+.Header
+{
+    grid-column: 1/4;
+}
+
+.Sidebar
+{
+    grid-row: 2/5;
+    background-color: blue;
+}
+
+.Nav
+{
+    grid-column: 2/4;
+    background-color: rgb(100, 0, 128);
+}
+
+.Article
+{
+    grid-row: 3/5;
+    grid-column:2/4;
+}
