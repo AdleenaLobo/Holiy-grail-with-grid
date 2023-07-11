@@ -1,3 +1,8 @@
+:root
+{
+    --enough: 20px;
+}
+
 body, html
 {
     height:100%;
@@ -5,31 +10,62 @@ body, html
 
 .outer-layer
 {
+    margin: 0%;
     display:grid;
-    grid-template-columns: 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px 50px 50px;
-    background-color: burlywood;
+    grid-template-columns: 490px 490px 490px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    gap: 12px;
+ 
 }
 
 .Header
 {
+    border-radius: var(--enough);
     grid-column: 1/4;
+    background-color:#006157;
 }
 
 .Sidebar
 {
+    
+    border-radius: var(--enough);
     grid-row: 2/5;
-    background-color: blue;
+    background-color: #005B94;
 }
 
 .Nav
 {
+    
+    border-radius: var(--enough);
     grid-column: 2/4;
-    background-color: rgb(100, 0, 128);
+    background-color: #642cde;
 }
 
 .Article
 {
+    
+    border-radius: var(--enough);
     grid-row: 3/5;
     grid-column:2/4;
+    background-color: #7E1DC3;
+}
+
+.Footer
+{
+    
+    border-radius: var(--enough);
+    grid-column: 1/5;
+    background-color: #393f4d;
+}
+
+p
+{
+    padding: 5px;
+    font-size: small;
+    text-align: start;
 }
