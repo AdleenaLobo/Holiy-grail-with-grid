@@ -12,8 +12,9 @@ body, html
 {
     margin: 0%;
     display:grid;
-    grid-template-columns: 490px 490px 490px;
-    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-template-columns:repeat(3, 2fr);
+    grid-template-rows:repeat(5,3fr);
+    overflow:auto;
     font-size: 30px;
     color: white;
     text-align: center;
